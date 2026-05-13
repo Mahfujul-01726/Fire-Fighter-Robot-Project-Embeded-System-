@@ -1,5 +1,7 @@
 # 🔥 Autonomous Fire-Fighting Robot (ESP-Distributed System)
 
+![Making Firefighter Robot](Gemini_Generated_Image_673xka673xka673x.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-ESP32%20%7C%20ESP8266-blue.svg)](https://www.espressif.com/)
 
@@ -87,6 +89,22 @@ The system operates on a "Sense-Think-Act" loop distributed across devices:
 *   `🛜wire_connection.pdf`: High-resolution wiring schematics.
 *   `🤖🪫notes.pdf`: Field notes and component specifications.
 *   `8266.jpg`: Specific wiring diagram for the ESP8266 motion controller.
+
+---
+
+## 🛠️ Project Gallery & Development
+
+Below are some photos from the development and testing phases, showing the wiring, assembly, and internal components.
+
+| **Wiring Overview** | **Development Bench** |
+|:---:|:---:|
+| ![Internal Wiring](IMG_20260428_174118.jpg) | ![Testing Phase](IMG20260428170857.jpg) |
+| *Labeled connections for ESP8266 and ESP32.* | *Real-time testing with multimeter and documentation.* |
+
+| **Finished Build** | **Component Close-up** |
+|:---:|:---:|
+| ![Completed Robot](1000099555.jpg) | ![Detailed View](IMG20260428171617.jpg) |
+| *The final autonomous firefighter robot.* | *Close-up of the sensor and relay integration.* |
 
 ---
 
