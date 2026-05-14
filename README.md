@@ -79,8 +79,8 @@ The system operates on a "Sense-Think-Act" loop distributed across devices:
 | Resource | Description |
 | :--- | :--- |
 | **[YouTube Playlist](https://www.youtube.com/playlist?list=PLWm-_LfRG8p-kztTce7PdKEiDP4GlUoEz)** | Detailed deep-dive into the entire system. |
-| **[Final Demo Video](FireFighter%20Robot_final.mp4)** | The robot in action detecting and extinguishing a fire. |
-| **[System Walkthrough](Robot%20Project%20Explanation.mp4)** | Explanation of individual components and wiring. |
+| **[Final Demo Video](https://www.youtube.com/shorts/lfT2HZ3j1w8)** | The robot in action detecting and extinguishing a fire. |
+| **[System Walkthrough](https://www.youtube.com/watch?v=tIJt6YGrc-w&t=2s)** | Explanation of individual components and wiring. |
 
 ---
 
