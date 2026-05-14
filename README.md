@@ -85,10 +85,24 @@ The system operates on a "Sense-Think-Act" loop distributed across devices:
 ---
 
 ## 📂 Repository Structure
+*   `esp32_fire_detection_system/`: Source code for the ESP32 (Sensor Telemetry via ThingSpeak & Active Water Pump Actuation).
+*   `esp8266_smart_car_controller/`: Source code for the ESP8266 Motion Controller (Web-based remote control & motor driving).
 *   `SYSTEM_ARCHITECTURE.md`: Detailed pinout and logic tables.
 *   `🛜wire_connection.pdf`: High-resolution wiring schematics.
 *   `🤖🪫notes.pdf`: Field notes and component specifications.
 *   `8266.jpg`: Specific wiring diagram for the ESP8266 motion controller.
+
+---
+
+## 💻 Source Code & Firmware
+
+### 1. ESP32 Fire Detection System (`esp32_fire_detection_system.ino`)
+- **Telemetry:** Streams Gas (MQ-2) and Flame sensor data to **ThingSpeak** every 15 seconds.
+- **Active Actuation:** Instantly triggers the isolated water pump relay (`GPIO26`) upon detecting hazard thresholds to ensure rapid fire suppression without waiting for API timeouts.
+
+### 2. ESP8266 Smart Car Controller (`esp8266_smart_car_controller.ino`)
+- **Remote Control:** Hosts an HTTP web server on port 80 to handle navigation commands (`F`, `B`, `L`, `R`, speed controls, etc.).
+- **Hardware Integration Note:** Configured by default for standard motor shields using `D1`-`D4`. If integrating directly with an external **L298N** module as documented in `SYSTEM_ARCHITECTURE.md`, update the pin mappings in the code header (`D3`-`D8`).
 
 ---
 
